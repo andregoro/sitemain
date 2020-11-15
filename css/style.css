@@ -228,7 +228,10 @@ table {
     font-weight:600;
     margin-bottom:15px;
 }
-
+.card-img-top{
+width: 20000;
+height: 20000;
+}
 #errormessage {
     color: red;
     display:none;
@@ -328,10 +331,10 @@ table {
     display: none;
 }
 .container img {
-    /* max-width:300px;
-    max-height:120px; */
-    width:360px;
-    height:150px
+    max-width:360px;
+    max-height:150px;
+    /* width:360px; */
+    /* height:150px */
     /* width: auto;
     height: auto; */
 }

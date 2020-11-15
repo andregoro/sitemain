@@ -1,15 +1,18 @@
 $("document").ready(function(){
     $("#cor").css("color","yellow");
-if(document.getElementById("email_address").value=="andre" && document.getElementById("password").value=="1" || sessionStorage.getItem("ver")=="true"){
-        sessionStorage.getItem("ver")="true";
-        alert(document.getElementById("email_address").value);
-}
-  if(sessionStorage.getItem("ver")=="true"){
-    $( ".esconder" ).show();
-    //sessionStorage.setItem("ver","true");
-  }else{
 
-    $( ".esconder" ).hide();
-    sessionStorage.setItem("ver","false");
-  }
-});
+     // alert(document.getElementById("email_address").value);
+
+      $( ".esconder" ).hide();
+
+          $("#bot").click(function() {
+
+                if(document.getElementById("email_address").value=="andre" && document.getElementById("password").value=="a"){
+                  sessionStorage.setItem("ver","true");
+                  // $( ".esconder" ).show();
+                  // $( ".login" ).hide();
+                  window.location.href="file:///C:/Users/andregoro/Documents/GitHub/sitemain/index.html";
+
+                }
+          });
+    });
