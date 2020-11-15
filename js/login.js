@@ -1,4 +1,4 @@
-
+alert("sa");
 $("document").ready(function(){
     $("#cor").css("color","yellow");
 
