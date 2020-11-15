@@ -12,5 +12,7 @@ $("document").ready(function(){
     $( ".esconder" ).hide();
     sessionStorage.setItem("ver","false");
   }
-$c
+$("#sair").click(function() {
+  sessionStorage.getItem("senha")="0";
+});
 });
