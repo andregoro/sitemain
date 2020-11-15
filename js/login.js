@@ -1,5 +1,5 @@
 
-alert();
+//alert();
 $("document").ready(function(){
     $("#cor").css("color","yellow");
 
