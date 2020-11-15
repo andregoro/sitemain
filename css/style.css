@@ -343,10 +343,7 @@ height: 20000;
     border-top-left-radius: calc(.25rem - 1px);
     border-top-right-radius: calc(.25rem - 1px);
 }
-img {
-    vertical-align: middle;
-    border: 0;
-}
+
 .menu-restaurant{
     width: 50%;
     float: left;
