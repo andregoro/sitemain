@@ -331,12 +331,21 @@ height: 20000;
     display: none;
 }
 .container img {
-    /* max-width:360px;
-    max-height:150px; */
+    max-width:360px;
+    max-height:150px;
     /* width:360px; */
     /* height:150px */
-    width: auto;
-    height: auto;
+    /* width: auto;
+    height: auto; */
+}
+.card-img-top {
+    width: 100%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+}
+img {
+    vertical-align: middle;
+    border: 0;
 }
 .menu-restaurant{
     width: 50%;
