@@ -51,11 +51,11 @@
 
           </div>
           <!-- Use any element to open the sidenav -->
-          <span onclick="openNav()" class="pull-right menu-icon">☰</span>
+          <span onclick="openNav()" class="pull-right menu-icon" id="s">☰</span>
         </div>
       </header>
       <div class="container">
-        <div class="row">
+        <div class="row align-center">
           <div class="card-columns col-lg-12">
             <script>
               var link = ["'https://github.com/andregoro/Lua.git'", "'https://github.com/andregoro/java.git'", "'https://github.com/andregoro/perl.git'",
@@ -85,10 +85,15 @@
                 "C++.png'", "D.jpg'", "rust.png'","Haskell.png'"
               ];
               for (let tam = 0; tam < link.length; ++tam) {
-                document.write("<a href=" + link[tam] + "><div class='card' ><img class='card-img-top' src='./img/" + img[tam] + " alt='Card image'></div></a>");
+         // document.write("<a href=" + link[tam] + "><div class='card' ><img class='card-img-top' src='./img/" + img[tam] + " alt='Card image'></div></a>");
+           document.write("<a href=" +link[tam]+"><div class='column medium-4'><div class='card'><img src='./img/" + img[tam] + "></div></div></a>");
               }
             </script>
+
           </div>
+
+
+
         </div>
       </div>
     </div>
