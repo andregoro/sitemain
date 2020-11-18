@@ -11,8 +11,12 @@ $("document").ready(function(){
                   sessionStorage.setItem("ver","true");
                   // $( ".esconder" ).show();
                   // $( ".login" ).hide();
-                  window.location.href="file:///C:/Users/andregoro/Documents/GitHub/sitemain/index.html";
-
+                  //window.location.href="/index.html";
+                  $("#form").attr("action","./index.html");
                 }
           });
     });
+
+function num() {
+alert("erro")
+}
