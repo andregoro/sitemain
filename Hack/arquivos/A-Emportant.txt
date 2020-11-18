@@ -1,0 +1,57 @@
+‏                            spy-note   
+
+Server םÚדב ÝÞ״ Úבל ּדםÚ ֳהÙדֹ זםהֿזׂ  
+
+1-דÊ״בַָÊ 
+java 8 Oracle  
+NET Framework 4.5 Microsoft
+Google דÊױÝֽ Chrome .
+
+
+2-java ַבָׁדּםַÊ
+ַ־Êׁ ַבָׁהַדּ ַבַÝÊַׁײם ַב׀ם Êׁםֿ ַ׃Ê־ַֿדו 
+בÝÊֽ דבÝַÊ jar
+Java(TM) Platform SE binary
+
+
+3- ַבַּֿׁ ַבהַׁם
+ַ׃דֽ בÜspynote  ַָבֿ־זב ֵבל ַבװָßֹ דה ־בַב
+ ֵÚַַֿֿÊ ַבַּֿׁ ַבהַׁם ֳז ָׁהַדּ דßַÝֹֽ ַבÝםׁז׃ַÊ
+  ֳז ֵםÞַÝ ַבַּֿׁ ַבהַׁם ז ֳםÞַÝ דßַÝֽ ַבÝםׁז׃ַÊ .
+
+ַ׃דֽ בÜspynote  ַָבזױזב ֵבל ַבדהÝ׀ ַבדֽֿֿ
+  Úבל ַבװָßֹ(ַב־ַּׁםֹ , ַבַֿ־בםֹ)
+
+example
+
+‏ַהÊÞב ֵבל Chrome ַז Internet Explore
+ װׁם״ ַבָֻֽ > http://192.168.1.1/ 
+Username = admin 
+Password = admin
+Application>Port Forwarding
+
+###################################
+ Protocol   |      udp,tcp        #
+Internal Client   |   192.168.1.9 #
+Device Name   |       xxxx-PC     #
+LAN Port   |     3210~3210        #
+WAN Port   |     3210~3210        #
+################################### 
+
+ֻד ַהÊÞב  ֳבל
+
+Security>DMZ 
+
+Enable DMZ = false
+
+ֻד ַהÊÞב  ֳבל ÊװÛםב  spynote
+
+  Þד ָׂםַֹׁ ַֽֿ ַבדזַÞÚ ַבÊם ÊִÝׁ בß ־ֿדֹ Ýֽױ ַבדהַÝ׀ 
+  ַÝֽױ ַבדהÝ׀ בÊֽÞÞ דה ֳהו םÚדב ָװßב ּםֿ .
+
+  
+4 - דײםÝ 
+םָּ Úבםß ÊָֻםÊ IP םהױֽ ֳָ׃Ê־ַֿד host
+Þד ַָÊÚׁÝ Úבל ַֽֿ וַ׀ם ַבדזַÞÚ ַבÊם ÊזÝׁ בß ַב־ֿדֹ דַּהםֹ.
+https://system-ns.com/
+https://www.noip.com/login
