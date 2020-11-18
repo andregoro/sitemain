@@ -1,0 +1,198 @@
+@import "compass";
+
+@font-face {
+	font-family: 'Proxima Nova';
+	src: url(../fonts/ProximaNova-Regular.ttf);
+}
+
+@font-face {
+	font-family: 'Proxima Nova Bold';
+	src: url(../fonts/ProximaNova-Regular.ttf);
+}
+
+.b_v3 {
+	font: 400 16px/27px "Proxima Nova", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+	.b_block {
+		position: absolute;
+		width: 600px;
+		height: 418px;
+		top: 50%;
+		left: 50%;
+		margin-top: -209px;
+		margin-left: -300px;
+		color: #fff;
+		padding: 30px;
+		@include background-image(linear-gradient(117deg, rgba(49,34,93,1) 0%,rgba(28,21,63,1) 100%));
+		@include box-shadow(0 0 12px 0 rgba(64, 64, 64, 0.45));
+		@include box-sizing(border-box);
+		&:after {
+			content: '';
+			display: block;
+			width: 245px;
+			height: 272px;
+			position: absolute;
+			right: 0;
+			top: 30px;
+			background: url(../v2_images/box.png) no-repeat;
+		}
+	}
+
+	.b_close {
+		position: absolute;
+		top: 6px;
+		right: 5px;
+		width: 32px;
+		height: 32px;
+		cursor: pointer;
+		z-index: 20;
+		background: url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%3E%3Ctitle%3E%D0%92%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BD%D1%8B%D0%B9%20%D1%81%D0%BC%D0%B0%D1%80%D1%82-%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%3C%2Ftitle%3E%3Cline%20x1%3D%2210%22%20y1%3D%2210%22%20x2%3D%2222%22%20y2%3D%2222%22%20style%3D%22fill%3Anone%3Bstroke%3A%23fff%3Bstroke-miterlimit%3A10%22%2F%3E%3Cline%20x1%3D%2210%22%20y1%3D%2222%22%20x2%3D%2222%22%20y2%3D%2210%22%20style%3D%22fill%3Anone%3Bstroke%3A%23fff%3Bstroke-miterlimit%3A10%22%2F%3E%3Crect%20width%3D%2232%22%20height%3D%2232%22%20style%3D%22fill%3Anone%22%2F%3E%3C%2Fsvg%3E') no-repeat;
+	}
+
+	.b_logo {
+		overflow: hidden;
+		font-size: 20px;
+		line-height: 26px;
+		margin-bottom: 56px;
+
+		img {
+			display: block;
+			width: 48px;
+			height: 48px;
+			float: left;
+			margin-right: 12px;
+		}
+	}
+
+	.b_title {
+		font: 700 30px/40px "Proxima Nova Bold", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+		margin-bottom: 10px;
+		max-width: 235px;
+	}
+
+	.b_title, .b_text {
+		padding-left: 10px;
+		@include box-sizing(border-box);
+	}
+
+	.b_text {max-width: 290px;}
+
+	.b_btn_wrap {
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 16px;
+		font-size: 0;
+		text-align: center;
+
+		.b_btn {
+			display: inline-block;
+			position: relative;
+			overflow: hidden;
+			width: 114px;
+			text-align: center;
+			cursor: pointer;
+			background-color: #dd4584;
+			font: 700 20px/40px "Proxima Nova Bold", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+			@include border-radius(6px);
+			&.is_loading {
+				cursor: default;
+				&:hover:before {@include background-image(linear-gradient(to bottom, rgba(255,255,255,0.3) 0%,rgba(255,255,255,0) 100%));}
+			}
+			&:before {
+				content: '';
+				display: block;
+				height: 29px;
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				@include background-image(linear-gradient(to bottom, rgba(255,255,255,0.3) 0%,rgba(255,255,255,0) 100%));
+			}
+			&:hover:before {background-image: none;}
+		}
+
+		.b_loading {
+			display: block;
+			margin: 7px auto;
+			width: 26px;
+		}
+
+		.s_err {
+			color: #fff;
+			font-size: 12px;
+		}
+	}
+
+	.progress_line {background-color: #ff4487;}
+}
+
+.b_universal_bnr {
+
+	&.popup__overlay {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.flex_item {
+		margin: auto;
+		max-height: 70vh;
+		max-width: 70vw;
+	}
+
+	.b_block {
+		position: relative;
+		//max-height: 70vh;
+		//max-width: 70vw;
+		//display: flex;
+		//width: 600px;
+		//height: 418px;
+		//top: 50%;
+		//left: 50%;
+		//margin-top: -209px;
+		//margin-left: -350px;
+		//background-color: #f8f8f8;
+		//@include box-shadow(0 0 12px 0 rgba(64, 64, 64, 0.45));
+	}
+
+	.b_close {
+		position: absolute;
+		top: 6px;
+		right: 5px;
+		width: 32px;
+		height: 32px;
+		cursor: pointer;
+		z-index: 20;
+		background: url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%3E%3Ctitle%3EVector%20Smart%20Object21%3C%2Ftitle%3E%3Cpolygon%20points%3D%2223.5%2022.12%2017.38%2016%2023.5%209.88%2022.12%208.5%2016%2014.62%209.88%208.5%208.5%209.88%2014.62%2016%208.5%2022.13%209.88%2023.5%2016%2017.38%2022.13%2023.5%2023.5%2022.12%22%2F%3E%3Crect%20width%3D%2232%22%20height%3D%2232%22%20style%3D%22fill%3Anone%22%2F%3E%3C%2Fsvg%3E') no-repeat;
+	}
+
+	.bnr_image {
+		max-width: 70vw;
+		max-height: 70vh;
+		display: block;
+		object-fit: contain;
+	}
+
+	.click_area {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		cursor: pointer !important;
+	}
+
+	.b_close.white {
+		background: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%3E%3Ctitle%3EVector%20Smart%20Object21%3C%2Ftitle%3E%3Cpolygon%20fill%3D%22white%22%20points%3D%2223.5%2022.12%2017.38%2016%2023.5%209.88%2022.12%208.5%2016%2014.62%209.88%208.5%208.5%209.88%2014.62%2016%208.5%2022.13%209.88%2023.5%2016%2017.38%2022.13%2023.5%2023.5%2022.12%22%2F%3E%3Crect%20width%3D%2232%22%20height%3D%2232%22%20style%3D%22fill%3Anone%22%2F%3E%3C%2Fsvg%3E") no-repeat;
+	}
+
+	.b_close.red {
+		background: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%3E%3Ctitle%3EVector%20Smart%20Object21%3C%2Ftitle%3E%3Cpolygon%20fill%3D%22%23d65656%22%20points%3D%2223.5%2022.12%2017.38%2016%2023.5%209.88%2022.12%208.5%2016%2014.62%209.88%208.5%208.5%209.88%2014.62%2016%208.5%2022.13%209.88%2023.5%2016%2017.38%2022.13%2023.5%2023.5%2022.12%22%2F%3E%3Crect%20width%3D%2232%22%20height%3D%2232%22%20style%3D%22fill%3Anone%22%2F%3E%3C%2Fsvg%3E") no-repeat;
+	}
+
+    .custom_clickable {
+        display: none;
+        cursor: pointer !important;
+    }
+}
