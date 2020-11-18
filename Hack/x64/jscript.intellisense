@@ -1,0 +1,5 @@
+;jscript.dll;GlobalObj;1
+Math;jscript.dll;MathObj;0
+new:Date;jscript.dll;DateInstance;0
+new:Array;jscript.dll;ArrayInstance;0
+new:RegExp;jscript.dll;RegExpInstance;0

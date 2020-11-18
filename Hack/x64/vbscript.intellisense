@@ -1,0 +1,3 @@
+;vbscript.dll;GlobalObj;0
+Err;vbscript.dll;ErrObj;0
+new:RegExp;vbscript.dll\3;;0
