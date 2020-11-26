@@ -12,7 +12,7 @@ $("document").ready(function(){
                   // $( ".esconder" ).show();
                   // $( ".login" ).hide();
                   //window.location.href="/index.html";
-                  $("#form").attr("action","./index.html");
+                  $("#form").attr("action","index.html");
                 }
           });
     });
